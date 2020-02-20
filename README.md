@@ -7,3 +7,5 @@ Os arquivos de estilo devem ser salvos dentro da pasta  `~/.config/matplotlib/st
 No seu .py, basta importar o estilo antes de criar as figuras (pode ser imediatamente antes, caso precise de mais estilos, ou no inicio do código). Por exemplo:
 
 `plt.style.use('paper_single_column')`
+
+A dimensão da figura gerada segue a proporção áurea. Essa proporção pode não ser a mais adequada para figuras com subplots. O arquivo pode ser alterado manualmente ou criado um novo arquivo a partir dos que estão no repositório.
